@@ -15,9 +15,9 @@ const hind = Hind_Siliguri({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://smartagentbd.online"),
-  title: "SmartAgent BD — The 24/7 AI Sales Agent That Never Sleeps",
+  title: "SmartAgent BD | AI Agents & Business Automation Solutions",
   description:
-    "Replace your ৳12,000/month page admin with an AI sales agent for ৳1,999. SmartAgent BD answers every Messenger DM in fluent Bangla, understands voice notes & screenshots, and closes cash-on-delivery orders in under 5 seconds — 24/7, no sick days.",
+    "Empowering businesses with intelligent AI agents and automated workflows. Get 24/7 automated customer support, instant lead capture, and smart systems.",
   keywords: [
     "AI chatbot Bangladesh",
     "Messenger sales bot",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     "SmartAgent BD",
   ],
   openGraph: {
-    title: "SmartAgent BD — Your 24/7 AI Sales Agent",
+    title: "SmartAgent BD | AI Agents & Business Automation Solutions",
     description:
-      "An AI that never sleeps, never misses a DM, and closes sales in under 5 seconds — from ৳2,999/month.",
+      "Empowering businesses with intelligent AI agents and automated workflows. Get 24/7 automated customer support, instant lead capture, and smart systems.",
     type: "website",
     locale: "en_US",
     url: "https://smartagentbd.online",
