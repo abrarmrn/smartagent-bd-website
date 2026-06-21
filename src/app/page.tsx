@@ -17,7 +17,7 @@ import { SocialProofPopups } from "@/components/SocialProofPopups";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative w-full overflow-x-clip">
       <Nav />
       <Hero />
       <Pain />

@@ -12,7 +12,7 @@ export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="relative py-24 md:py-28">
+    <section id="faq" className="relative overflow-x-clip py-24 md:py-28">
       <div className="pointer-events-none absolute left-1/2 top-20 -z-10 h-72 w-[34rem] -translate-x-1/2 rounded-full bg-purple/8 blur-[130px]" />
       <div className="mx-auto max-w-3xl px-5">
         <SectionHeading eyebrow={t.eyebrow} title={t.title} accent={t.titleAccent} sub={t.sub} />

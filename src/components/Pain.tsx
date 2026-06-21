@@ -11,7 +11,7 @@ export function Pain() {
   const t = T[lang].pain;
 
   return (
-    <section id="problem" className="relative py-24 md:py-28">
+    <section id="problem" className="relative overflow-x-clip py-24 md:py-28">
       <div className="pointer-events-none absolute left-1/2 top-10 -z-10 h-72 w-[36rem] -translate-x-1/2 rounded-full bg-rose-500/10 blur-[120px]" />
       <div className="mx-auto max-w-6xl px-5">
         <SectionHeading eyebrow={t.eyebrow} title={t.title} accent={t.titleAccent} sub={t.sub} />
