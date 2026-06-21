@@ -75,7 +75,10 @@ export function Contact() {
                   <Labeled label={t.name}><input name="name" required placeholder={t.name} className={field} /></Labeled>
                   <Labeled label={t.email}><input name="email" type="email" required placeholder={t.email} className={field} /></Labeled>
                 </div>
-                <Labeled label={t.company}><input name="company" placeholder={t.company} className={field} /></Labeled>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <Labeled label={t.phone}><input name="phone" type="tel" required placeholder={t.phone} className={field} /></Labeled>
+                  <Labeled label={t.whatsapp}><input name="whatsapp" type="tel" placeholder={t.whatsapp} className={field} /></Labeled>
+                </div>
                 <div className="grid gap-4 sm:grid-cols-2">
                   <Labeled label={t.service}>
                     <select name="service" defaultValue="" className={field} required>
