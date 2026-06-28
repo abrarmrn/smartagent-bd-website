@@ -66,6 +66,18 @@ export function ShopifyLogo({ className }: P) {
   );
 }
 
+export function WordpressLogo({ className }: P) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" aria-hidden>
+      <circle cx="12" cy="12" r="12" fill="#21759B" />
+      <path
+        fill="#fff"
+        d="M4.7 8h2.4l1.45 5.1L10.1 8h1.9l1.55 5.1L15 8h2.4l-2.55 8h-2.05l-1.5-4.95L9.8 16H7.75L4.7 8Z"
+      />
+    </svg>
+  );
+}
+
 export const BRAND_LOGOS = [
   { id: "messenger", Comp: MessengerLogo, glow: "rgba(0,132,255,0.5)" },
   { id: "instagram", Comp: InstagramLogo, glow: "rgba(214,41,118,0.5)" },
